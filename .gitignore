@@ -1,0 +1,33 @@
+# Private credentials
+/secrets/
+# Environment variables and credentials
+**/.env
+**/.env.*
+**/client_secret*.json
+**/StoredCredential
+**/token*.json
+**/*.pem
+**/*.p12
+
+# Private folders and uploaded documents
+/secrets/
+/storage/
+
+# Generated files
+**/node_modules/
+**/dist/
+**/target/
+**/build/
+
+# IDE files
+.idea/
+.vscode/
+
+
+# Local diagnostic logs
+/backend/startup-error.txt
+**/*.log
+
+# Local diagnostic logs
+/backend/startup-error.txt
+**/*.log

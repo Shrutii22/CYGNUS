@@ -1,0 +1,1 @@
+export default function MessageBubble({role,content}){return <div className={`message ${role}`}><div className="message-avatar">{role==="user"?"U":"✦"}</div><div><b>{role==="user"?"You":"CYGNUS"}</b><p>{content}</p></div></div>}
